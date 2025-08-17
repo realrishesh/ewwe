@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3 2025 Financial Earnings Report</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/sky.css" id="theme">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/monokai.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h1>Q3 2025 Financial Earnings Report</h1>
+                <p>Confidential: For Internal and Stakeholder Review Only</p>
+                <hr>
+                <p><small>Prepared by: Technical Consulting Division</small></p>
+                <p><small>Contact: <strong>23f1001448@ds.study.iitm.ac.in</strong></small></p>
+            </section>
+
+            <section data-markdown>
+                <textarea data-template>
+                    ## Q3 Revenue Highlights
+
+                    - **Total Revenue**: $1.2B (+15% YoY)
+                    - **Net Profit**: $250M (+12% YoY)
+                    - Strong growth in our Cloud Services division.
+
+                    ---
+
+                    | Region | Growth YoY |
+                    | ------ | ---------- |
+                    | Americas | 18%        |
+                    | EMEA     | 12%        |
+                    | APAC     | 14%        |
+                </textarea>
+            </section>
+
+            <section>
+                <h2>Key Takeaways</h2>
+                <ul>
+                    <li class="fragment" data-fragment-index="1">Exceeded revenue and profit forecasts.</li>
+                    <li class="fragment" data-fragment-index="2">Significant market share gains in the APAC region.</li>
+                    <li class="fragment" data-fragment-index="3">Strategic investments in AI are yielding positive returns.</li>
+                    <li class="fragment fade-up" data-fragment-index="4">Positive outlook for Q4 with new product launches.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Code Sample: ROI Calculation</h2>
+                <p>A simple Python function to calculate Return on Investment.</p>
+                <pre><code class="python" data-line-numbers="1-2|4-6|7">
+def calculate_roi(investment, earnings):
+    """Calculates the Return on Investment."""
+    net_profit = earnings - investment
+    if investment == 0:
+        return 0.0
+    roi = (net_profit / investment) * 100
+    return roi
+                </code></pre>
+            </section>
+
+            <section>
+                <h2>Financial Formula: Net Present Value (NPV)</h2>
+                <p>NPV is used to analyze the profitability of a projected investment.</p>
+                \[ NPV = \sum_{t=1}^{n} \frac{R_t}{(1+i)^t} - C_0 \]
+                <aside class="notes">
+                    Press 'S' to see these notes.
+                    Explain the variables to the stakeholders:
+                    - R_t is the net cash inflow during a single period t.
+                    - i is the discount rate or return that could be earned in alternative investments.
+                    - t is the number of time periods.
+                    - C_0 is the initial investment.
+                </aside>
+            </section>
+
+            <section>
+                <h2>Thank You</h2>
+                <p>Questions & Answers</p>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/markdown/markdown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/math/math.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/notes/notes.js"></script>
+
+    <script>
+        // Initialize RevealJS with required plugins
+        Reveal.initialize({
+            hash: true,
+            plugins: [ RevealMarkdown, RevealHighlight, RevealMath.KaTeX, RevealNotes ]
+        });
+    </script>
+</body>
+</html>
